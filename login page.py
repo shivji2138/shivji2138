@@ -9,7 +9,7 @@ def redirect_to_home(script_path):
 # Main window
 root = tk.Tk()
 root.title("Login Page")
-root.configure(bg="pink")
+root.configure(bg="pink") #bgcolour
 
 # Message to user
 msg = '''Login to enter
@@ -29,7 +29,7 @@ logo_photo = ImageTk.PhotoImage(logo_image)
 logo_label = tk.Label(root, image=logo_photo)
 logo_label.pack(pady=10)
 
-# User ID and password
+# User ID and password original
 user_id_original = "Admin"
 password_original = "sgstudbms"
 
